@@ -58,7 +58,7 @@ def scrape():
     soup2 = bs(html2, "html.parser")
 
     # Find the image URL for the current Featured Mars Image
-    featured_image_url = soup2.find("img", class_="shrinkToFit")["src"]
+    featured_image_url = soup2.find("img")["src"]
     mars_info["featured_image_url"] = featured_image_url
 
 
