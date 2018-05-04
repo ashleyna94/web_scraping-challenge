@@ -1,5 +1,6 @@
 # Mission to Mars (General Scraping Code)
 
+![png](Images/MarsInfoScrapePreview.png)
 
 ```python
 # coding: utf-8
